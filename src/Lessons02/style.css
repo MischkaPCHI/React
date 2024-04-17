@@ -1,6 +1,6 @@
 .button-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 1;
     gap: 10px;
 }
