@@ -1,5 +1,5 @@
 import './App.css';
-// import Lesson02 from './Lessons/Lessons02';
+// import Lesson02 from './Lessons/Lesson02/Lessons02';
 import Homework02 from './homeworks/Homework02/Homework02';
 
 function App() {
