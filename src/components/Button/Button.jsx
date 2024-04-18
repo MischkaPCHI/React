@@ -1,8 +1,11 @@
 import "./styles.css"
 
 const Button = (props) => {
-    const buttonClass = `test-button ${props.isPrimary ? "" : "test"}`;
-    return <button className={buttonClass}>{props.buttonName ? props.buttonName : 'Un'}</button>
+    return <button type={props.type} className="test-button">
+        <div className="login-text-block">
+            {props.name}
+        </div>
+    </button>
 }
 
 export default Button;
