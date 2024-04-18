@@ -1,5 +1,5 @@
-import "./style.css"
-import Button from "../componente/Button"
+import "./styles.css"
+import Button from "../../components/Button/Button"
 
 const Lesson02 = () => {
     return(

@@ -55,8 +55,9 @@
     100% {
         transform: rotate(360deg);
     }
-    }
-    @keyframes animate2 {
+}
+
+@keyframes animate2 {
     0% {
         transform: rotate(360deg);
     }

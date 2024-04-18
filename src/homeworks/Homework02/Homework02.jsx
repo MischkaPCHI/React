@@ -1,5 +1,5 @@
-import "./style.css"
-import ProfileCard from "../../componente/ProfileCard/PrifileCard";
+import "./styles.css"
+import ProfileCard from "../../components/ProfileCard/PrifileCard";
 
 const Homework02 = () => {
     return (

@@ -1,6 +1,6 @@
 import './App.css';
-import Lesson02 from './Lessons02/Lessons02';
-import Homework02 from './homeworks/hw02/homework02';
+// import Lesson02 from './Lessons/Lessons02';
+import Homework02 from './homeworks/Homework02/Homework02';
 
 function App() {
   return (
