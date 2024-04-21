@@ -1,10 +1,10 @@
 import "./styles.css"
 
-const Input = (props) => {
+const Input = ({label, name, type, placeholder}) => {
     return (
         <div className="input-block">
-            <label className="label">{props.label}</label>
-           <input className="input" name={props.name} type={props.type} placeholder={props.placeholder} /> 
+            <label className="label">{label}</label>
+           <input className="input" name={name} type={type} placeholder={placeholder} /> 
         </div>
     )
 }
