@@ -1,8 +1,7 @@
 import "./styles.css"
 
-const Button = (props) => {
-    const buttonClass = `test-button ${props.isPrimary ? "" : "test"}`;
-    return <button className={buttonClass}>{props.buttonName ? props.buttonName : 'Un'}</button>
+const Button = ({type, name, onButtonClick}) => {
+    return <button type={type} onClick={onButtonClick} className="test-button">{name}</button>
 }
 
 export default Button;

@@ -23,7 +23,7 @@ const Lesson03 = () => {
             </AnimalCard>
             <AnimalCard animalData={zebraData} animalName={normalizeName(zebraData.name)} />
 
-            <Button buttonName="Send" isPrimary />
+            <Button buttonName="Send"  />
             <Button buttonName="Confirm" />
         </div>
     )
