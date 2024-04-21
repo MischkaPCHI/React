@@ -1,11 +1,7 @@
 import "./styles.css"
 
-const Button = (props) => {
-    return <button type={props.type} className="test-button">
-        <div className="login-text-block">
-            {props.name}
-        </div>
-    </button>
+const Button = ({type, name, onButtonClick}) => {
+    return <button type={type} onClick={onButtonClick} className="test-button">{name}</button>
 }
 
 export default Button;

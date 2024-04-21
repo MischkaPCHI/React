@@ -4,17 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 470px;
+    width: 70px;
     height: 70px;
-    border-radius: 4px;
-    background: #1F27F5;
-    gap: 10px;
-}
-
-.login-text-block {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: center;
+    border-radius: 8px;
+    background: #1fc3f5;
+    border: transparent;
 }
